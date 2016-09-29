@@ -1,0 +1,923 @@
+/*HEADER CSS
+----------*/
+body {
+	background: none !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 14px !important;
+    line-height: 1.42857 !important;
+    color: rgb(51, 51, 51) !important;
+}
+
+#page {
+	margin: 0;
+}
+
+span.caret {
+	display: none;
+}
+
+.dropdown-toggle:after {
+	content: none !important;
+}
+
+.navbar {
+	border: none !important;
+	border-radius: 0 !important;
+	border-bottom: 2px solid rgb(244,130,57) !important;
+	margin: 0 !important;
+	height: 10px !important;
+}
+	
+.navbar a:hover {
+	color: rgb(244,130,57) !important;
+}
+
+.navbar .container-fluid {
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+}
+
+.navbar .navbar-brand {
+	font-size: 30px !important;
+	font-weight: 100;
+}
+
+.navbar #bs-example-navbar-collapse-1 {
+	padding-right: 0 !important;
+}
+
+.navbar #bs-example-navbar-collapse-1 .navbar-nav {
+	width: 65% !important;
+	padding: 0 !important;
+}
+
+#bs-example-navbar-collapse-1 li {
+	width: 20% !important;
+	text-align: center !important;
+}
+
+#bs-example-navbar-collapse-1 li a {
+	font-weight: 700 !important;
+	width: 100% !important;
+}
+
+#bs-example-navbar-collapse-1 .right-side-header {
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 250px !important;
+	height: 50px !important;
+}
+
+#bs-example-navbar-collapse-1 .social-wrapper {
+	float:right !important;
+	padding: 5% !important;
+	display: inline-table;
+	width: 200px !important;
+}
+
+#bs-example-navbar-collapse-1 .social-wrapper .the-social-links {
+	margin: 0 2% !important;
+	float: right !important;
+}
+
+#bs-example-navbar-collapse-1 .search-btn-form {
+	float: right !important;
+	display: inline-table;
+}
+
+#bs-example-navbar-collapse-1 .search-btn-form .search-btn {
+	height: 50px !important;
+	width: 50px !important;
+	background-color: rgb(244,130,57) !important;
+	border-radius: 0 !important;
+	border-color: rgb(244,130,57) !important;
+	background-image: none !important;
+}
+
+#bs-example-navbar-collapse-1 .search-btn-form .search-field {
+	padding: 0;
+	width: 265px;
+}
+
+#bs-example-navbar-collapse-1 .search-btn-form .search-field div {
+	background-color: rgb(244,130,57);
+}
+
+#bs-example-navbar-collapse-1 .search-btn-form .search-field div > div {
+	padding:2%;
+}
+
+#bs-example-navbar-collapse-1 .search-btn-form .search-field div > div input {
+	width: 100%;
+}
+
+#bs-example-navbar-collapse-1 .header-dropdown-menu {
+	color: #777;
+}
+
+#bs-example-navbar-collapse-1 .header-dropdown-menu:hover {
+	color: white !important;
+	background-color: rgb(244,130,57) !important;
+	background-image: none;
+}
+
+
+.btn-warning {
+	background-color: rgb(244,130,57) !important;
+	background-image: none !important;
+}
+
+.item .img {
+	border-top: 4px solid rgb(244,130,57);
+}
+
+.item .link-item-text {
+	color: black !important;
+	background-color: rgb(242,242,242);
+}
+
+.link-item:hover div {
+	background-color: rgb(244,130,57) !important;
+	color: white !important;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: rgb(244,130,57) !important;
+    background-color: transparent !important;
+}
+
+@media (min-width: 979px) {
+	ul.nav li.menu-item:hover > ul.dropdown-menu {
+  		display: block;
+	}
+}
+
+.dropdown-menu>.active>a, 
+.dropdown-menu>.active>a:focus, 
+.dropdown-menu>.active>a:hover {
+    background-color: transparent !important;
+    color: rgb(244,130,57) !important;
+}
+
+
+/*HOME CSS
+--------*/
+#home-main-content {
+	margin: 0 1% !important;
+}
+
+#home-main-content .left-section {
+	background-color: rgb(244,130,57);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#home-main-content .left-section .inner-left-section {
+	border: 1px solid white;
+	padding: 1%;
+	color: white;
+}
+
+#home-main-content .left-section .inner-left-section.subscribe .subscribe-title {
+	margin: 25px 0;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#home-main-content .left-section .inner-left-section.subscribe .email-section {
+	margin:20px 7%;
+}
+
+#home-main-content .left-section .inner-left-section.subscribe .email-section input {
+	color: rgb(244,130,57) !important;
+	font-style: italic;
+	width: 100% !important;
+}
+
+#home-main-content .left-section .inner-left-section.subscribe button {
+	border: 2px solid white !important;
+	background-color: rgb(244,130,57) !important;
+	padding: 1px;
+}
+
+#home-main-content .left-section .inner-left-section.subscribe button div {
+	background-color: white;
+	color: rgb(244,130,57) !important;
+	padding: 5px;
+}
+
+#home-main-content .left-section .inner-left-section.popular {
+	padding: 0 !important;
+	line-height: 1;
+}
+
+#home-main-content .left-section .inner-left-section.popular .popular-title1 {
+	background-color: white;
+	color: rgb(244,130,57);
+	font-size: 40px;
+	line-height: 1;
+}
+
+#home-main-content .left-section .inner-left-section.popular .popular-title2 {
+	background-color: rgb(244,130,57);
+	color: white;
+	font-size: 40px;
+}
+
+#home-main-content .left-section .inner-left-section.popular .popular-list {
+	margin: 1% !important;
+}
+
+#home-main-content .left-section .inner-left-section.popular .popular-list .popular-item {
+	margin: 6% 2%;
+}
+
+#home-main-content .left-section .inner-left-section.popular .popular-list .popular-item .date {
+	font-size: 8px;
+}
+
+#home-main-content .left-section .inner-left-section.popular .popular-list .popular-item .title {
+	font-size: 17px;
+}
+
+#home-main-content .left-section .inner-left-section.popular .popular-list .popular-item .author {
+	font-size: 10px
+}
+
+#home-main-content .left-section .inner-left-section.popular .popular-list a {
+	color: white !important;
+}
+
+#home-main-content .news-section {
+	border: 1px solid rgb(244,130,57);
+	padding: 0;
+	margin-bottom: 1.5%;
+}
+
+#home-main-content .news-section .title {
+	margin-bottom: 12px;
+}
+
+#home-main-content .news-section .title span {
+	background-color: rgb(244,130,57);
+	color: white;
+	font-size: 26px;
+	line-height: 38px;
+	padding: 5px 12px;
+}
+
+#home-main-content .news-section .news-img {
+	height: 200px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home-main-content .reviews-section {
+	padding: 0;
+	background-color: rgb(242,242,242);
+	margin-bottom: 1.5%;
+}
+
+#home-main-content .reviews-section .title {
+	margin-bottom: 12px;
+}
+
+#home-main-content .reviews-section .title span {
+	background-color: rgb(244,130,57);
+	color: white;
+	font-size: 26px;
+	line-height: 38px;
+	padding: 5px 12px;
+}
+
+#home-main-content .reviews-section .reviews-img {
+	height: 200px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home-main-content .tutorial-section {
+	padding: 0 2%;
+	background-color: rgb(244,130,57);
+}
+
+#home-main-content .tutorial-section .title {
+	margin-bottom: 12px;
+}
+
+#home-main-content .tutorial-section .title span {
+	background-color: white;
+	color: rgb(244,130,57);
+	font-size: 26px;
+	line-height: 38px;
+	padding: 5px 12px;
+}
+
+#home-main-content .tutorial-section .tutorial-img {
+	border-top: 4px solid white !important;
+	height: 200px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home-main-content .tutorial-section .link-item-text {
+	background-color: rgb(251,193,156) !important;
+}
+
+#home-main-content .tutorial-section .home-see-more a {
+	background-color: white !important;
+	color: rgb(244,130,57) !important;
+}
+
+#home-main-content .tutorial-section .link-item:hover div {
+	background-color: white !important;
+	color: black !important;
+}
+
+#home-main-content .home-see-more {
+	margin: 2%;
+}
+
+#home-main-content .home-see-more a {
+	background-image: none !important;
+}
+
+/*FOOTER CSS
+----------*/
+footer .inner-footer {
+	padding: 1% 5%;
+	margin-top: 2%;
+}
+
+footer .inner-footer h4 {
+	margin: 0;
+}
+
+footer a:hover {
+	text-decoration: none !important;
+}
+
+footer .the-social-links {
+	margin: 0 2% !important;
+	float: right !important;
+	background: rgb(244,130,57) !important;
+}
+
+/*NEWS CSS
+--------*/
+#news-main-content {
+	margin: 1% !important;
+}
+
+#news-main-content .right-section {
+	background-color: rgb(244,130,57);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#news-main-content .right-section .inner-right-section {
+	border: 1px solid white;
+	padding: 1%;
+	color: white;
+}
+
+#news-main-content .right-section .inner-right-section.subscribe .subscribe-title {
+	margin: 25px 0;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#news-main-content .right-section .inner-right-section.subscribe .email-section {
+	margin:20px 7%;
+}
+
+#news-main-content .right-section .inner-right-section.subscribe .email-section input {
+	color: rgb(244,130,57) !important;
+	font-style: italic;
+}
+
+#news-main-content .right-section .inner-right-section.subscribe button {
+	border: 2px solid white !important;
+	background-color: rgb(244,130,57) !important;
+	padding: 1px;
+}
+
+#news-main-content .right-section .inner-right-section.subscribe button div {
+	background-color: white;
+	color: rgb(244,130,57) !important;
+	padding: 5px;
+}
+
+#news-main-content .news-section {
+	border: 1px solid rgb(244,130,57);
+	padding: 0 0 1% 0;
+	margin-bottom: 1.5%;
+}
+
+#news-main-content .news-section .title {
+	margin-bottom: 12px;
+}
+
+#news-main-content .news-section .title span {
+	background-color: rgb(244,130,57);
+	color: white;
+	font-size: 26px;
+	line-height: 38px;
+	padding: 5px 12px;
+}
+
+#news-main-content .news-section .news-img {
+	height: 200px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pagination-link {
+	border: 1px solid rgb(244,130,57);
+	color: rgb(244,130,57);
+	padding: 8px;
+}
+
+.pagination-link.active{
+	border: 1px solid rgb(244,130,57);
+	background-color: rgb(244,130,57);
+	color: white;
+	padding: 8px;
+}
+
+a:hover {
+	color: rgb(244,130,57);
+	text-decoration: none;
+}
+
+a.active:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/*REVIEWS CSS
+-----------*/
+#reviews-main-content {
+	margin: 1% !important;
+}
+
+#reviews-main-content .right-section {
+	background-color: rgb(244,130,57);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#reviews-main-content .right-section .inner-right-section {
+	border: 1px solid white;
+	padding: 1%;
+	color: white;
+}
+
+#reviews-main-content .right-section .inner-right-section.subscribe .subscribe-title {
+	margin: 25px 0;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#reviews-main-content .right-section .inner-right-section.subscribe .email-section {
+	margin:20px 7%;
+}
+
+#reviews-main-content .right-section .inner-right-section.subscribe .email-section input {
+	color: rgb(244,130,57) !important;
+	font-style: italic;
+}
+
+#reviews-main-content .right-section .inner-right-section.subscribe button {
+	border: 2px solid white !important;
+	background-color: rgb(244,130,57) !important;
+	padding: 1px;
+}
+
+#reviews-main-content .right-section .inner-right-section.subscribe button div {
+	background-color: white;
+	color: rgb(244,130,57) !important;
+	padding: 5px;
+}
+
+#reviews-main-content .reviews-section {
+	padding: 0 0 1% 0;
+	margin-bottom: 1.5%;
+	background-color: rgb(242,242,242);
+}
+
+#reviews-main-content .reviews-section .title {
+	margin-bottom: 12px;
+}
+
+#reviews-main-content .reviews-section .title span {
+	background-color: rgb(244,130,57);
+	color: white;
+	font-size: 26px;
+	line-height: 38px;
+	padding: 5px 12px;
+}
+
+#reviews-main-content .reviews-section .reviews-img {
+	height: 200px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pagination-link {
+	border: 1px solid rgb(244,130,57);
+	color: rgb(244,130,57);
+	padding: 8px;
+}
+
+.pagination-link.active{
+	border: 1px solid rgb(244,130,57);
+	background-color: rgb(244,130,57);
+	color: white;
+	padding: 8px;
+}
+
+a:hover {
+	color: rgb(244,130,57);
+	text-decoration: none;
+}
+
+a.active:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/*TUTORIAL CSS
+------------*/
+#tutorial-main-content {
+	margin: 1% !important;
+}
+
+#tutorial-main-content .right-section {
+	background-color: rgb(244,130,57);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#tutorial-main-content .right-section .inner-right-section {
+	border: 1px solid white;
+	padding: 1%;
+	color: white;
+}
+
+#tutorial-main-content .right-section .inner-right-section.subscribe .subscribe-title {
+	margin: 25px 0;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#tutorial-main-content .right-section .inner-right-section.subscribe .email-section {
+	margin:20px 7%;
+}
+
+#tutorial-main-content .right-section .inner-right-section.subscribe .email-section input {
+	color: rgb(244,130,57) !important;
+	font-style: italic;
+}
+
+#tutorial-main-content .right-section .inner-right-section.subscribe button {
+	border: 2px solid white !important;
+	background-color: rgb(244,130,57) !important;
+	padding: 1px;
+}
+
+#tutorial-main-content .right-section .inner-right-section.subscribe button div {
+	background-color: white;
+	color: rgb(244,130,57) !important;
+	padding: 5px;
+}
+
+#tutorial-main-content .tutorial-section {
+	padding: 0 0 1% 0;
+	margin-bottom: 1.5%;
+	background-color: rgb(244,130,57);
+}
+
+#tutorial-main-content .tutorial-section .title {
+	margin-bottom: 12px;
+}
+
+#tutorial-main-content .tutorial-section .title span {
+	background-color: white;
+	color: rgb(244,130,57);
+	font-size: 26px;
+	line-height: 38px;
+	padding: 5px 12px;
+}
+
+#tutorial-main-content .tutorial-section .tutorial-item .tutorial-title {
+	background-color: rgb(242,186,149);
+}
+
+#tutorial-main-content .tutorial-section .tutorial-item .tutorial-desc {
+	background-color: rgb(242,186,149);
+}
+
+#tutorial-main-content .tutorial-section .tutorial-img {
+	height: 200px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-color: white !important;
+}
+
+#tutorial-main-content .tutorial-section .link-item:hover div {
+	background-color: white !important;
+	color: black !important;
+}
+
+.pagination-link {
+	border: 1px solid rgb(244,130,57);
+	color: rgb(244,130,57);
+	padding: 8px;
+}
+
+.pagination-link.active{
+	border: 1px solid rgb(244,130,57);
+	background-color: rgb(244,130,57);
+	color: white;
+	padding: 8px;
+}
+
+a:hover {
+	color: rgb(244,130,57);
+	text-decoration: none;
+}
+
+a.active:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/*ABOUT CSS
+---------*/
+div.content-title {
+    text-align: center; 
+    border-top: 3px solid rgb(244,130,57); 
+    line-height: 0.1em;
+    margin: 50px 0 0 1%;
+    width: 98%;
+}
+span.inline-border {
+    width: 80% !important;
+    background:#fff; 
+    padding:0 10px;
+    color: #777;
+    font-size: 20px;
+}
+
+#about-section {
+	margin: 50px 0;
+}
+
+#about-section > .inner-section {
+	padding: 0;
+	border: 1px solid rgb(229,229,229);
+	margin-bottom: 150px;
+}
+
+#about-section > .inner-section .about-title {
+	margin: 2% 0;
+	font-weight: 600;
+	font-size: 35px;
+}
+
+#about-section > .inner-section .prim-img {
+	height: 250px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#about-section > .inner-section .about-desc {
+	padding: 20px 8%;
+}
+
+/*ARTICLE CSS
+-----------*/
+#article-main-content {
+	margin: 1% 0;
+}
+
+#article-main-content .article-section {
+	border: 1px solid rgb(229,229,229);
+	margin: 0 2%;
+	padding: 1%;
+}
+
+#article-main-content .article-section .article-title-section .prev-link-btn {
+	height: 70px;
+	vertical-align: middle;
+	display: table-cell;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+#article-main-content .article-section .article-title-section .prev-desc {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 4%;
+}
+
+#article-main-content .article-section .article-title-section .prev-desc .prev-title{
+	font-size: 10px;
+	font-style: italic;
+}
+
+#article-main-content .article-section .article-title-section .next-desc {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 4%;
+}
+
+#article-main-content .article-section .article-title-section .next-desc .next-title{
+	font-size: 10px;
+	font-style: italic;
+}
+
+#article-main-content .article-section .article-prim-img {
+	margin: 0.5% 0;
+	height: 300px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#article-main-content .article-section .article-img-caption {
+	font-style: italic;
+	padding: 0;
+	font-size: 12px;
+}
+
+#article-main-content .article-section .user-pic-section {
+	padding: 0;
+	border: 1px solid rgb(229,229,299);
+}
+
+#article-main-content .article-section .user-pic-section .user-pic {
+	height: 85px;
+	width: 85px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 40px;
+	background-size: cover;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#article-main-content .other-section {
+	padding: 0;
+	margin-bottom: 1.5%;
+}
+
+#article-main-content .other-section .title span {
+	font-size: 18px;
+	line-height: 38px;
+}
+
+#article-main-content .other-section .other-img {
+	height: 200px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#article-main-content .right-section {
+	background-color: rgb(244,130,57);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#article-main-content .right-section .inner-right-section {
+	border: 1px solid white;
+	padding: 1%;
+	color: white;
+}
+
+#article-main-content .right-section .inner-right-section.subscribe .subscribe-title {
+	margin: 25px 0;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#article-main-content .right-section .inner-right-section.subscribe .email-section {
+	margin:20px 7%;
+}
+
+#article-main-content .right-section .inner-right-section.subscribe .email-section input {
+	color: rgb(244,130,57) !important;
+	font-style: italic;
+}
+
+#article-main-content .right-section .inner-right-section.subscribe button {
+	border: 2px solid white !important;
+	background-color: rgb(244,130,57) !important;
+	padding: 1px;
+}
+
+#article-main-content .right-section .inner-right-section.subscribe button div {
+	background-color: white;
+	color: rgb(244,130,57) !important;
+	padding: 5px;
+}
+
+#article-main-content .mash-small {
+	float: none !important;
+}
+
+.wp_social_bookmarking_light div {
+	height: 30px !important;
+}
+
+.wsbl_twitter {
+	width: 68px !important;
+}
+
+/*CONTACT US CSS
+--------------*/
+div.content-title {
+    text-align: center; 
+    border-top: 3px solid rgb(244,130,57); 
+    line-height: 0.1em;
+    margin: 50px 0 0 1%;
+    width: 98%;
+}
+span.inline-border {
+    width: 80% !important;
+    background:#fff; 
+    padding:0 10px;
+    color: #777;
+    font-size: 20px;
+}
+
+#form-section {
+    margin: 50px 0;
+}
+
+/*ALL FORM MESSAGE CSS
+--------------------*/
+.advertise-form form {
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	padding: 20px;
+}
+.advertise-form label {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 14px !important;
+	line-height: 1.42857 !important;
+	font-weight: 700 !important;
+}
+.advertise-form textarea,
+.advertise-form input {
+	border: 1px solid #A9B3BC !important;
+}
+.submit-article-form form {
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	padding: 20px;
+}
+.submit-article-form label {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 14px !important;
+	line-height: 1.42857 !important;
+	font-weight: 700 !important;
+}
+.submit-article-form textarea,
+.submit-article-form input {
+	border: 1px solid #A9B3BC !important;
+}
